@@ -1,0 +1,35 @@
+:root {
+  color-scheme: dark;
+  --ink: #e5eee8;
+  --muted: #a4b4aa;
+  --green: #8bc5a0;
+  --green2: #24382d;
+  --paper: #1a2420;
+  --bg: #111815;
+  --line: #304039;
+  --coral: #ff9c8d;
+  --shadow: 0 8px 26px #0005;
+}
+
+body { background: var(--bg); color: var(--ink); }
+.status { background: #1d3026; color: #b9dec5; }
+.status.offline { background: #3a2c1a; color: #f0c98b; }
+.tabs { background: #151e1bed; }
+.card { background: var(--paper); border-color: var(--line); }
+label { color: #c4d4ca; }
+input, select, textarea { background: #131b17; color: var(--ink); border-color: #40534a; color-scheme: dark; }
+input::placeholder, textarea::placeholder { color: #85968b; }
+.btn { background: #427b5a; color: #fff; }
+.btn.secondary { background: #263d30; color: #b7e0c4; }
+.btn.ghost { background: #1a2420; color: #b7e0c4; border-color: var(--line); }
+.btn.danger { background: #402521; color: #ffb3a8; }
+.tag { background: #263d30; color: #b7e0c4; }
+.tag.warn { background: #40341e; color: #f1d18f; }
+.tag.bad { background: #402521; color: #ffb3a8; }
+.notice { background: #302a1b; color: #ead8ab; }
+.bar { background: #2c3831; }
+.bar i { background: #70ad84; }
+.toast { background: #e4eee8; color: #142019; }
+dialog { background: var(--bg); color: var(--ink); border: 1px solid var(--line); border-radius: 20px; }
+dialog::backdrop { background: #0009; }
+::selection { background: #497b5a; color: #fff; }

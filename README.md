@@ -11,7 +11,7 @@ Een Nederlandstalig voedings- en klachtenlogboek. Geen account, analytics of ser
 - Bij een klacht wordt de meest recente eerdere maaltijd voorgesteld; je kunt elke eerder geregistreerde maaltijd kiezen.
 - Inzichten tellen alleen maaltijden die je zelf aan een klacht koppelde, naast hoe vaak je die maaltijd registreerde. Dit zijn mogelijke patronen, geen bewijs van oorzaak.
 - CSV-export en volledige JSON-back-up/import.
-- Offline shell-cache via service worker; manifest, iOS-metagegevens en app-iconen.
+- Donker thema, offline shell-cache via service worker; manifest, iOS-metagegevens en app-iconen.
 - Mobiele bediening, datumvalidatie, begrensde invoer en bevestiging bij wissen/herstellen.
 
 ## Testen op een computer
